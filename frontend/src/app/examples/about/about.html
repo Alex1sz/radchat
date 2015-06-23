@@ -1,0 +1,214 @@
+<h3>Radchat</h3>
+
+<div class="row">
+  <div class="col-sm-12">
+
+
+  <div class="col-sm-12 col-md-4">
+    <h4>"Sides"</h4>
+      <ul class="list-unstyled">
+        <li><strong>Backend</strong>
+          <ul>
+            <li>Only <em>REST API</em>, no frontend stuff.</li>
+            <li>Passport.js for user authentication. 
+              <span class="text-muted">Supported auth types: local,
+                <del data-tooltip="not yet implemented...">twitter, facebook, google+, etc.</del>
+              </span>
+            </li>
+            <li>
+              JWT support for API calls.
+              <span class="text-muted">
+                JSON Web Tokens are used to to authenticate the user after a successfull login.
+              </span>
+            </li>
+            <li>
+              CORS support.
+            </li>
+            <li>
+              business logic and validations for data
+              <span class="text-muted">
+                Backend handles data related validations, logging, and user authentication.
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li><strong>Frontend</strong>
+          <ul>
+            <li>
+              A single-page application
+            </li>
+            <li>Lightweight only client side application</li>
+            <li>Route examples for views</li>
+            <li>Support for WebSocket communication with backend</li>
+            <li>Interceptor for HTTP / Socket communication</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="col-sm-12 col-md-4">
+      <h4>Libraries used and other stuff</h4>
+      <ul class="list-unstyled">
+        <li>
+          <strong>Backend</strong>
+          <ul>
+            <li>
+              <a href="http://sailsjs.org/" target="_blank">sails.js</a>
+            </li>
+            <li>
+              <a href="http://passportjs.org/" target="_blank">Passport</a>
+              <ul class="list-inline">
+                <li>
+                  <a href="https://github.com/jaredhanson/passport-local" target="_blank">Local</a>
+                </li>
+                <li>
+                  <del data-tooltip="Not yet implemented...">
+                    <a href="https://github.com/jaredhanson/passport-twitter" target="_blank">Twitter</a>
+                  </del>
+                </li>
+                <li>
+                  <del data-tooltip="Not yet implemented...">
+                    <a href="https://github.com/jaredhanson/passport-github" target="_blank">GitHub</a>
+                  </del>
+                </li>
+                <li>
+                  <del data-tooltip="Not yet implemented...">
+                    <a href="https://github.com/jaredhanson/passport-facebook" target="_blank">Facebook</a>
+                  </del>
+                </li>
+                <li>
+                  <del data-tooltip="Not yet implemented...">
+                    <a href="https://github.com/jaredhanson/passport-google" target="_blank">Google</a>
+                  </del>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="https://github.com/auth0/node-jsonwebtoken" target="_blank">JsonWebToken</a>
+              <span class="text-muted">
+                JSON Web Token implementation (symmetric and asymmetric)
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/bredikhin/barrels" target="_blank">barrels</a>
+              <span class="text-muted">
+                Simple DB Fixtures for Sails.js (^0.10.x)
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/tobie/ua-parser" target="_blank">ua-parser</a>
+              <span class="text-muted">
+                A multi-language port of Browserscope's user agent parser.
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Frontend</strong>
+          <ul>
+            <li>
+              <a href="https://github.com/slushjs/slush-angular" target="_blank">slush-angular</a>
+              <span class="text-muted">
+                A slush generator for AngularJS using the Google Angular App Structure Recommendations
+              </span>
+            </li>
+            <li>
+              <a href="http://jquery.com/" target="_blank">jQuery</a>
+            </li>
+            <li>
+              <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
+            </li>
+            <li>
+              <a href="http://fontawesome.io/" target="_blank">Font Awesome</a>
+            </li>
+            <li>
+              <a href="https://angularjs.org/" target="_blank">AngularJS</a>
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/angular-ui/ui-router" target="_blank">AngularUI Router</a>
+            </li>
+            <li>
+              <a href="http://angular-ui.github.io/bootstrap/" target="_blank">UI Bootstrap</a>
+              <span class="text-muted">
+                Bootstrap components written in pure AngularJS by the AngularUI Team
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/urish/angular-moment" target="_blank">angular-moment</a>
+              <span class="text-muted">
+                  Moment.JS directives for Angular.JS (timeago and more)
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/paulyoder/angular-bootstrap-show-errors" target="_blank">angular-bootstrap-show-errors</a>
+              <span class="text-muted">
+                An Angular directive for Bootstrap to intelligently show form validation errors
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/scottcorgan/angular-linkify" target="_blank">angular-linkify</a>
+              <span class="text-muted">
+                Angular filter, directive, and service to linkify text.
+              </span>
+            </li>
+            <li>
+              <a href="http://foxandxss.github.io/angular-toastr/" target="_blank">angular-toastr</a>
+              <span class="text-muted">
+                Angular port of CodeSeven/toastr.
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/fraywing/textAngular" target="_blank">textAngular</a>
+              <span class="text-muted">
+                A radically powerful Text-Editor/Wysiwyg editor for Angular.js.
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/balderdashy/sails.io.js" target="_blank">sails.io.js</a>
+              <span class="text-muted">
+                Browser SDK for communicating w/ Sails via sockets
+              </span>
+            </li>
+            <li>
+              <a href="https://github.com/balderdashy/angularSails" target="_blank">angularSails</a>
+              <span class="text-muted">
+                AngularJS bindings for Sails.
+              </span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Common stuff</strong> <span class="text-muted">Libraries that are used on both sides</span>
+          <ul>
+            <li>
+              <a href="http://lodash.com/" target="_blank">Lo-Dash</a>
+              <span class="text-muted">
+                A utility library delivering consistency, customization, performance, & extras.
+              </span>
+            </li>
+            <li>
+              <a href="http://momentjs.com/" target="_blank">Moment.js</a>
+              +
+              <a href="http://momentjs.com/timezone/" target="_blank">Moment Timezone</a>
+              <span class="text-muted">
+                Parse, validate, manipulate, and display dates in javascript.
+              </span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<p>
+  Use following credentials for login:
+  <pre>
+    username: demo
+    password: demodemodemo</pre>
+</p>
+
+<p>
+  Detailed info at <a href="https://github.com/tarlepp/angular-sailsjs-boilerplate" target="_blank">GitHub</a>.
+</p>

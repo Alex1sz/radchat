@@ -1,3 +1,3 @@
 # sailschat
 
-a [Sails](http://sailsjs.org) application
+Chat/Messaging app powered by a Sails backend and Angular frontend

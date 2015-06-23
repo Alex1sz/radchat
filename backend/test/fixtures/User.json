@@ -1,0 +1,19 @@
+[
+  {
+    "username": "admin",
+    "email": "admin@example.com",
+    "firstName": "Adminstrator",
+    "admin": true,
+    "createdUser": 1,
+    "updatedUser": 1
+  },
+  {
+    "username": "demo",
+    "email": "demo@example.com",
+    "firstName": "John",
+    "lastName": "Doe",
+    "admin": false,
+    "createdUser": 1,
+    "updatedUser": 1
+  }
+]

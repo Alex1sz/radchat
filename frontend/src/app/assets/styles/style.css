@@ -1,0 +1,39 @@
+body {
+  background: #F5F5F5;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 70px;
+}
+.navbar{
+  border-radius: 0px;
+}
+.form_chat{
+  padding: 4px;
+}
+.chat_message{
+  padding: 10px;
+  color: #000;
+  font-size: 14px;
+  background: #FFF8F0;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.td_class{
+  word-break: break-all;
+  padding: 34px;
+  padding-bottom: 0px;
+  padding-top: 20px;
+  border: 0;
+}
+.navbar-brand{
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.user_name{
+  padding-bottom: 0;
+  color: #fff;
+  font-size: 15px;
+}
+.col-lg-4,.col-lg-6{
+  padding-right: 3px;
+  padding-left: 3px;
+}

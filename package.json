@@ -1,0 +1,33 @@
+{
+    "name": "radchat",
+    "version": "0.0.1",
+    "description": "radchat powered by AngularJS + Sails.js",
+    "keywords": [
+        "sails.js",
+        "backend",
+        "REST",
+        "API",
+        "JWT",
+        "JSON Web Token",
+        "Passport.js",
+        "frontend",
+        "angular",
+        "slush",
+        "slush-angular"
+    ],
+    "main": "",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "install": "cd backend && npm install && cd ../frontend && npm install",
+        "test": "cd backend && mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/alex1sz/sailschat.git"
+    },
+    "bugs": {
+        "url": "https://github.com/alex1sz/sailschat/issues"
+    },
+    "author": "Alex Szabo"
+}
